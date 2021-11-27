@@ -9,10 +9,23 @@ Use cases include:
 * Run Selenium-powered browser automation tests using Python inside of Docker during your CI builds
 * and pretty much anything else where you'd want to use a real Chrome browser within a Docker container
 
+
+## Difference from the original atlassian image
+
+* Keep debian base image up to date (chromium-xvfb only).
+
+
+
 ## Images
 
-* [markadams/chromium-xvfb](https://registry.hub.docker.com/u/markadams/chromium-xvfb/)
+Updated images:
+
+* [sebastianrzk/chromium-xvfb](https://registry.hub.docker.com/u/sebastianrzk/chromium-xvfb/)
   Base Docker image (Installs Debian, Chromium, Xvfb)
+
+
+Original images:
+
 * [markadams/chromium-xvfb-js](https://registry.hub.docker.com/u/markadams/chromium-xvfb-js/)
   Designed for running headless JS tests in Chromium (includes iojs (node) and npm)
   This image automatically runs `npm install` and `npm test`
