@@ -20,7 +20,7 @@ Use cases include:
 
 Updated images:
 
-* [sebastianrzk/chromium-xvfb](https://registry.hub.docker.com/u/sebastianrzk/chromium-xvfb/)
+* [sebastianrzk/docker-chromium-xvfb](https://registry.hub.docker.com/u/sebastianrzk/docker-chromium-xvfb/)
   Base Docker image (Installs Debian, Chromium, Xvfb)
 
 
