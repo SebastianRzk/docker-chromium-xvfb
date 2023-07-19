@@ -21,7 +21,7 @@ Use cases include:
 Updated images:
 
 * [sebastianrzk/docker-chromium-xvfb](https://registry.hub.docker.com/r/sebastianrzk/docker-chromium-xvfb/)
-  Base Docker image (Installs Debian, Chromium, Xvfb)
+  Base Docker image (Installs Debian, Chromium, Xvfb) Last updated: 19. July 2023
 
 
 Original images:
